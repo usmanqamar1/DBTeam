@@ -3,7 +3,7 @@
 
 spool cmd_d_unknown_upd2
 set feedback on
-set echo on
+set echo off
 
 SELECT /*+ parallel 8 */
        COUNT( *)
